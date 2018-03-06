@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace helloAgain
 {
@@ -10,8 +6,10 @@ namespace helloAgain
     {
         static void Main(string[] args)
         {
-            string myPhrase  = "Hello Again!";
-            Console.WriteLine(myPhrase);
+            Console.WriteLine("Hello what is your name?: ");
+            string userName  = Console.ReadLine();
+            Console.WriteLine("Hello {0}!", userName);
+            
         }
     }
 }
