@@ -10,7 +10,8 @@ namespace helloAgain
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Again!");
+            string myPhrase  = "Hello Again!";
+            Console.WriteLine(myPhrase);
         }
     }
 }
